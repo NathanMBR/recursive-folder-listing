@@ -1,0 +1,26 @@
+{
+  "name": "node-recursive-folder-listing",
+  "version": "1.0.0",
+  "description": "Recursive folder listing for Node.js",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --enable-source-maps .",
+    "dev": "tsx ./src/index.ts"
+  },
+  "keywords": [
+    "node",
+    "recursive",
+    "folder",
+    "listing",
+    "typescript",
+    "fs"
+  ],
+  "author": "NathanMBR",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
